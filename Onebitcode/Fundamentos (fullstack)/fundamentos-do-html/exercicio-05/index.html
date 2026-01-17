@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Formulário de inscrição</title>
+</head>
+<body>
+    <h1>Formulário de inscrição</h1>
+
+    <div>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Ex.: Antonio Batista"> 
+                <br><br>
+            </div>
+            
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="Exemplo@email.com.br">
+                <br><br>
+            </div>
+            
+            <div>
+                <label for="telefone">Whatsapp:</label><br>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(49)99999-9999">
+                <br><br>
+            </div>
+
+            <div>
+                <label>Area de atuação:</label><br>
+                <input type="radio" id="desenvolvimento" name="atuacao" required value="desenvolvimento">
+                <label for="desenvolvimento">Desenvolvimento</label>
+                <input type="radio" id="qualityAssurance" name="atuacao" required value="qualityAssurance">
+                <label for="qualityAssurance">Quality Assurence(QA)</label>
+                <input type="radio" id="analiseDeDados" name="atuacao" required value="analiseDeDados">
+                <label for="analiseDeDados">Analise de Dados</label>
+                <input type="radio" id="infraestrutura" name="atuacao" required value="infraestrutura">
+                <label for="infraestrutura">Infraestrutura</label>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="obs">Observações:</label><br>
+                <textarea name="obs" id="obs" cols="40" rows="6" placeholder="Adicione informações sobre você aqui..."></textarea>
+                <br><br>
+            </div>
+
+            <div>
+                <input type="checkbox" id="selecionado" name="desejo" required value="selecionado">
+                <label for="selecionado">Desejo receber novidades e ofertas por email.</label>
+                <br><br>
+            </div> 
+
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
